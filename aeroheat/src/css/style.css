@@ -14,10 +14,12 @@ margin-left: auto;
  
 
 }
+
 .header-promo{
  float: right;
  text-align: center;
  margin-top: 10px;
+ 
 }
 .promo-1{
  color: #e46d0a;
@@ -52,15 +54,13 @@ margin-left: auto;
  height: 20px;
  
  margin-left: -1px;
- padding: 8px 10.5px;
+ padding: 8px 20.4px;
  color: #e46d0a;
  font-weight: bolder;
  border: 1px solid #e5e5e5;
  
 }
-/*.container{
- border: 2px dotted #e46d0a;
-}*/
+ 
 .main-menu a:hover {
  text-decoration: underline;
 }

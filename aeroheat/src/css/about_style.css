@@ -1,0 +1,74 @@
+body{
+ font-family:  Calibri;
+}
+
+.header-about{
+ background-image: url("../img/About_us.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+	min-height: 275px;
+ min-width: 681px;
+ border-bottom: 4px solid #e46d0a;
+}
+
+.about-top{
+ padding: 10px;
+  line-height: 25px;
+}
+
+.section-title{
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 55px;
+    text-align: center;
+    color: #e46d0a;
+}
+
+.section-list, ol{
+ text-align: center; 
+ padding-bottom: 15px;
+ line-height: 25px;
+ counter-reset: list;
+}
+
+
+ol li{
+
+ list-style: none;
+}
+.countered::before{
+ counter-increment: list ;
+ content:counter(list) '.'; 
+}
+
+.types{padding: 0 300px;}
+
+.features-blocks{padding-top: 25px;}
+
+.features-block{
+ text-align: center;
+ width: 33.3%;
+ float: left;
+}
+.features-blocks::after{
+ content: '';
+ display: table;
+ clear: both;
+}
+
+.features-block__img{
+ margin-bottom: 23px;
+ } 
+.features-block__img img{
+ height: 90px;
+ width: 90px;
+}
+
+.features-block__text{
+ font-weight: bold;
+ text-transform: uppercase;
+}
