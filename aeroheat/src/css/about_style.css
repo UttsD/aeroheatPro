@@ -47,18 +47,23 @@ ol li{
 
 .types{padding: 0 300px;}
 
-.features-blocks{padding-top: 25px;}
+.features-blocks{padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+}
 
 .features-block{
  text-align: center;
- width: 33.3%;
- float: left;
+ flex-basis: 300px;
+ flex-grow: 1;
+ 
+ 
 }
-.features-blocks::after{
- content: '';
- display: table;
- clear: both;
-}
+
 
 .features-block__img{
  margin-bottom: 23px;
