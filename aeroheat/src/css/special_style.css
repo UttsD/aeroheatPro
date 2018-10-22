@@ -1,0 +1,49 @@
+.company-blocks{padding-top: 25px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+
+
+}
+
+.company-blocks{
+text-align: center;
+flex-basis: 500px;
+flex-grow: 1;
+
+
+}
+.company-block{
+ margin-right: 50px;
+}
+
+.company-block__img{
+margin-bottom: 23px;
+} 
+.company-block__img img{
+height: 165px;
+width: 212px;
+
+}
+
+.company-block__text{
+font-weight: bold;
+font-size: 18px;
+text-transform: uppercase;
+color:  #e46d0a;
+}
+
+.features-block__text{
+ font-weight: bold;
+ font-size: 16px;
+ text-transform: none;
+}
+.features-block__img{
+ margin-bottom: 0px;
+ margin-top: 20px;
+ } 
+.features-block__img img{
+ height: 100px;
+ width: 100px;
+}

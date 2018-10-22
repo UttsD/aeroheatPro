@@ -1,18 +1,31 @@
 body{
  font-family:  Calibri;
 }
-
-.header-about{
+nav{
+    border-bottom: 4px solid #e46d0a;
+    margin-bottom: 15px;
+}
+.header-about, .header-special{
  background-image: url("../img/About_us.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center; 
 	min-height: 275px;
  min-width: 681px;
- border-bottom: 4px solid #e46d0a;
+ 
+}
+.main-menu a{
+    padding: 8px 16px;
+}
+.header-about{
+    background-image: url("../img/About_us.jpg");
+   }
+
+.header-special{
+    background-image: url("../img/special.jpg");
 }
 
-.about-top{
+.just-text{
  padding: 10px;
   line-height: 25px;
 }
@@ -60,11 +73,7 @@ ol li{
  text-align: center;
  flex-basis: 300px;
  flex-grow: 1;
- 
- 
 }
-
-
 .features-block__img{
  margin-bottom: 23px;
  } 
